@@ -10,7 +10,7 @@ const program = new Command();
 program
   .name('sbom-cli')
   .description('Ingest and query Software Bill of Materials (SBOMs)')
-  .version('1.0.0');
+  .version('1.0.0', '-V, --app-version');
 
 // ── ingest ───────────────────────────────────────────────────────────────────
 
