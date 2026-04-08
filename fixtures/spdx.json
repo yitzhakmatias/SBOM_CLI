@@ -1,0 +1,37 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "my-frontend",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://example.com/my-frontend",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-react",
+      "name": "react",
+      "versionInfo": "18.2.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-webpack",
+      "name": "webpack",
+      "versionInfo": "5.88.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-lodash",
+      "name": "lodash",
+      "versionInfo": "4.17.21",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-gpl-lib",
+      "name": "some-gpl-lib",
+      "versionInfo": "2.0.0",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only"
+    }
+  ]
+}

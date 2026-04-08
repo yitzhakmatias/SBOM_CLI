@@ -1,0 +1,18 @@
+{
+  "@context": "https://spdx.org/rdf/3.0.0/spdx-context.jsonld",
+  "spdxId": "https://example.com/sboms/spdx3-fixture",
+  "@graph": [
+    {
+      "@type": "software_Package",
+      "spdxId": "https://example.com/sboms/spdx3-fixture#typescript",
+      "name": "typescript",
+      "software_packageVersion": "5.4.0"
+    },
+    {
+      "@type": "software_Package",
+      "spdxId": "https://example.com/sboms/spdx3-fixture#jest",
+      "name": "jest",
+      "software_packageVersion": "29.7.0"
+    }
+  ]
+}

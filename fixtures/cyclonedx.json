@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:fixture-cdx",
+  "version": 1,
+  "metadata": {
+    "component": { "type": "application", "name": "my-app", "version": "1.0.0" }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "express",
+      "version": "4.18.2",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "4.17.21",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "pg",
+      "version": "8.11.0",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "some-gpl-lib",
+      "version": "2.0.0",
+      "licenses": [{ "license": { "id": "GPL-2.0-only" } }]
+    }
+  ]
+}
